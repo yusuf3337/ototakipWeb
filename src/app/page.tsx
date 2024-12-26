@@ -29,21 +29,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-
-          <div className="flex gap-4 items-center flex-col sm:flex-row">
-            <a
-              className="rounded-full bg-[#cf6566] text-white px-8 py-3 text-lg font-semibold hover:bg-blue-700 transition-colors"
-              href="#signup"
-            >
-              Ücretsiz Deneyin
-            </a>
-            <a
-              className="rounded-full border border-[#cf6566] text-[#cf6566] dark:text-blue-400 px-8 py-3 text-lg font-semibold hover:bg-[#cf6566] hover:text-white transition-colors"
-              href="#demo"
-            >
-              Demo İzleyin
-            </a>
-          </div>
         </main>
       </div>
       <AppScreens />
