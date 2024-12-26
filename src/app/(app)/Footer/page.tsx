@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
+    //FOOTER TASARIM
     <footer className="bg-gray-100 text-gray-600">
       <div className="max-w-6xl mx-auto px-4 py-10 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
